@@ -7,7 +7,7 @@ import LoginPage from "../pageObjects/LoginPage/LoginPage";
 test("Sign in test invalid",async ({page}) => {
     const login = new LoginPage(page);
     await login.openBookMyShowPage();
-    await login.isSignInInvalid('2zzzszs2z');
+    await login.isSignInInvalid('2zzzszs2zz');
   });
 
 test("Regression Search test invalid",async({page})=>{
